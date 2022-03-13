@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 150%;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+/* Background Colours */
+
+.teritiary-bgcolor {
+  background-color: #fff7f4;
+}
+
+.darkbluebg {
+  background-color: #070d67;
+}
+
+.skybluebg {
+  background-color: #00adee;
+}
+
+.redbg {
+  background-color: #ec1c24;
+}
+
+/* Font Colours */
+
+.f-darkblue {
+  color: #070d67 !important;
+}
+
+.f-skyblue {
+  color: #00adee !important;
+}
+
+.f-red {
+  color: #ec1c24 !important;
+}
+
+.f-white {
+  color: #ffffff !important;
+}
+
+.f-black {
+  color: #000000 !important;
+}
+
+.border20 {
+  border-radius: 20px;
+}
+
+
+/* Pallette Colors */
+
+.pallette1{
+  background: #003049 !important;
+}
+
+
+.pallette2{
+  background: #D62828 !important;
+}
+
+
+.pallette3{
+  background: #F77F00 !important;
+}
+
+
+.pallette4{
+  background: #FCBF49 !important;
+}
+
+
+.pallette5{
+  background: #5F0F40 !important;
+}
+
+.pallette6{
+  background: #BC6C25;
+}
+
+
+/* nav-bar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fafafa;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.colors-id {
+  background-color: #145ee7;
+}
+/* .nav-item {
+  align-items: flex-end;
+} */
+.nav-link {
+  font-size: 22px;
+  /* font-size: 0.8em; */
+}
+
+/* carousel-section-start */
+.carousel-indicators .active {
+  margin: 5px;
+}
+.carousel-indicators li {
+  margin: 6px;
+}
+li.slick-active button {
+  background: #4da8da !important;
+}
+.draggable.slick-list {
+  padding-bottom: 5rem;
+  background-color: #0f9ffa;
+}
+/* ****************************** */
+
+/* ***************************** */
+/* specialized-in-section */
+.specialized-in-section {
+  background-color: #12232e;
+
+  padding-bottom: 6rem;
+  margin-top: -1rem;
+}
+.container {
+  margin: 0 auto;
+  /* margin-left: 10rem; */
+}
+/* ******************************** */
+.about-us-section {
+  background-color: #788c9a;
+  color: #ffff;
+  padding: 2rem 0;
+}
+.row.about-us-section {
+  margin: 0;
+  padding: 12rem;
+}
+/* ***********************************************************************************     */
+
+/* footer-section-start */
+.footer {
+  padding: 0;
+  background-color: #007cc7;
+}
+.footer-section {
+  background-color: #007cc7;
+}
+.footer-logo {
+  color: #ffff;
+}
+.heading-3 {
+  color: #ffff;
+}
+.links-list a {
+  color: #ffff;
+  text-decoration: none;
+}
+.links-list a:hover {
+  color: #73c2f3;
+}
+ul.links-list {
+  list-style: none;
+  line-height: 4rem;
+  padding: 0;
+  font-size: 18px;
+}
+.Social_links a {
+  color: #ffff;
+  /* opacity: 0.8; */
+  text-decoration: none;
+}
+
+.Social_links a:hover {
+  color: #73c2f3;
+}
+.Social_links {
+  list-style: none;
+
+  line-height: 4rem;
+  padding: 0;
+  font-size: 18px;
+}
+p.Address {
+  color: #ffff;
+  line-height: 3rem;
+  font-size: 18px;
+}
+.mail-box {
+  border: none;
+  /* background-color: #007cc7; */
+  color: #ffff;
+}
+input#email {
+  background: #007cc7;
+}
+.sub-footer-section {
+  padding-top: 5rem;
+  color: #ffff;
+}
+.copy-right {
+  font-size: 20px;
+}
+.copy-right-text {
+  font-size: 16px;
+}
+.email-border {
+  /* width: 15rem; */
+  color: #ffff;
+  opacity: 1;
+}
+.border {
+  width: 17rem;
+  color: #ffff;
+  opacity: 1;
+}
+.phone-no {
+  width: 13rem;
+  color: #ffff;
+  opacity: 1;
+}
+.copy-right-text {
+  /* opacity: 0.8; */
+}
+
+/* ===================================================================================================
+HARI EDITS
+=================================================================================================== */
+
+.primaryColor {
+  /* background: #12232e; */
+  background: #0f9ffa;
+}
+
+.secondaryColor {
+  background: #007cc7;
+}
+.tertiaryColor {
+  background: #4da8da;
+}
+
+.fontPrimaryColor {
+  color: #12232e;
+}
+
+.fontSecondaryColor {
+  color: #007cc7;
+}
+.fontTertiaryColor {
+  /* color: #4da8da; */
+  color: #12232e;
+}
+
+p {
+  color: #eefbfb;
+  font-size: 18px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 999;
+  left: 100px;
+  top: 40px;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sideNavBar {
+  position: fixed;
+  left: 0;
+  width: 5%;
+  z-index: 999;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #007cc7; */
+  background-color: #12232e;
+  height: 100vh;
+}
+
+.main-sidebar > div {
+  /* background-color: #007cc7; */
+  background-color: #12232e;
+  padding: 1rem 0;
+  /* text-align: center; */
+  line-height: 75px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.menubar {
+  /* margin: 0 17px; */
+  margin-left: 17px;
+  color: #ffff;
+}
+
+.menubar {
+  height: 25%;
+  color: #fff;
+}
+
+.navbar-sec {
+  width: 320px;
+  float: left;
+  padding: 10px;
+  background: #003555;
+  position: fixed;
+  top: 0;
+  left: 67px;
+  height: 100vh;
+  z-index: 99;
+}
+
+.nav-start {
+  position: relative;
+}
+
+.nav-start a {
+  color: #fff;
+}
+
+.nav-start ul {
+  list-style: none;
+}
+
+.nav-start ul li {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.drop.show {
+  display: block;
+}
+
+.drop.show ::after {
+  display: none;
+}
+
+.drop.show a:hover {
+  color: #007cc7;
+  text-decoration: none;
+}
+
+.drop {
+  display: none;
+}
+
+.drop ::after {
+  display: none;
+}
+
+.dropdown-toggle.lite::after {
+  display: none !important;
+}
+
+/* Drop2 for cloud services */
+.drop2.show {
+  display: block;
+}
+.drop2 .show ::after {
+  display: none;
+}
+.drop2.show a:hover {
+  color: #007cc7;
+  text-decoration: none;
+}
+
+/* ********** */
+
+.socialmedia {
+  height: 50%;
+  color: #fff;
+}
+
+.socialmedia ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.socialmedia a {
+  color: #fff;
+}
+/*=========================================*/
+
+.totalBody {
+  position: absolute;
+  right: 0;
+  width: 95%;
+}
+
+.mainBanner span {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.bannerText {
+  padding: 200px 0px;
+}
+
+.bannerImage img {
+  padding: 60px 0 0 0;
+}
+
+/* ===================================================================================================
+===================================           CORE SERVICES         ==================================
+=================================================================================================== */
+
+.primary-heading {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 2.25rem;
+}
+
+.coreBox {
+  margin: 15px 0px;
+}
+
+.coreBox h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eefbfb;
+  line-height: 43.2px;
+  letter-spacing: 0.24px;
+}
+
+.coreBoxInner {
+  background: #203647;
+  padding: 25px;
+}
+
+.col-sm-10.coreBoxInner {
+  width: 92%;
+}
+
+.col-sm-1.coreBoxInner {
+  width: 4%;
+}
+
+.coreBoxInner img {
+  width: 20%;
+  height: auto;
+}
